@@ -20,6 +20,7 @@ body {
     opacity: 0.8;
 }
  
+
 .nav a {
   text-decoration: none;
   color: #fff;
@@ -72,8 +73,13 @@ body {
     text-align: center;
 }
 
+.wrapper ul {
+    list-style: none;
+}
+
 .wrapper .left {
-  width: 49%;
+    align-items: flex-start;
+  width: 100%;
   height: 100%;
   display: inline-block;
   background: silver;
@@ -81,12 +87,17 @@ body {
 
 .wrapper .right {
    align-items: flex-end;
-  width: 49%;
+  width: 100%;
   height:100% ;
   display: inline-block;
   background: black;
+    color: white;
 }
 
+
+.wrapper .image left{
+    width: 100%
+}
 
 
 body
@@ -143,7 +154,11 @@ li3
     {font-size: 10px;
         
     }
-    
+
+. Text-right  {
+    opacity: 0.4;
+}
+
 p1
 {
     opacity: 0.5;
