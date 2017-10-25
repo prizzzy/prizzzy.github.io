@@ -1,40 +1,52 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ccc;
+  background: black;
 }
  
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: black;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 .nav li {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Courier New', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
-  border-bottom: 1px solid #888;
-    opacity: 0.8;
+  /*border-bottom: 1px solid #888;
+    opacity: 0.8;*/
 }
  
 
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   display: block;
+    opacity: 0.7;
   transition: .3s background-color;
 }
  
 .nav a:hover {
-  background-color: darkgray;
+  text-decoration-color: white;
+    color: ghostwhite;
+    opacity: 1;
 }
  
 .nav a.active {
-  color: #fff;
+  color: white;
   cursor: default;
+    display: block;
+    opacity: 0.7;
+  transition: .3s background-color;
+}
+/*The following is a test*/
+.nav a.active:hover{
+    text-decoration-color: white;
+    color: ghostwhite;
+    opacity: 1;
 }
  
 @media screen and (min-width: 600px) {
@@ -102,10 +114,10 @@ body {
 
 body
     {   
-    background-color: whitesmoke;
+    background-color: black;
     background-size: cover;
     text-align: center;
-    color: black;
+    color: whitesmoke;
     }
 
 h1, h2
