@@ -8,8 +8,8 @@ body {
   list-style: none;
   background-color: black;
   text-align: right;
-  padding: 0;
-  margin: 0;
+  padding-right: 10px;
+  margin-right: 50px;
 }
 .nav li {
   font-family: 'Courier New', sans-serif;
@@ -33,7 +33,7 @@ body {
   text-decoration-color: white;
     color: ghostwhite;
     opacity: 1;
-    font-size: 22.5px;
+    font-size: 22px;
 }
  
 .nav a.active {
